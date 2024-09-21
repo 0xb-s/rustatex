@@ -1,0 +1,13 @@
+WHITESPACE = _{ " " | "\t" | "\r" | "\n" }
+
+document = { SOI ~ (command | paragraph)* ~ EOI }
+
+command = { backslash ~ identifier ~ "{" ~ argument ~ "}" }
+
+paragraph = { ( !command ~ ANY )+ }
+
+backslash = { "\\" }
+
+identifier = { ASCII_ALPHANUMERIC+ }
+
+argument = { ( !"}" ~ ANY )* }
