@@ -6,7 +6,7 @@ RustaTex is a lightweight document typesetting system built in Rust, designed as
 
 - [Overview](#overview)
 - [Features](#features)
-- [Installation](#installation)
+
 
 ## Overview
 
