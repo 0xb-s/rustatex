@@ -3,7 +3,7 @@ use clap::{ArgGroup, Parser};
 /// RustaTex: A lightweight LaTeX alternative written in Rust
 #[derive(Parser, Debug)]
 #[command(name = "RustaTex")]
-#[command(author = "Your Name <you@example.com>")]
+#[command(author = ">")]
 #[command(version = "0.1.0")]
 #[command(about = "A lightweight LaTeX alternative written in Rust", long_about = None)]
 #[command(group(
