@@ -1,0 +1,16 @@
+\title{Sample Document}
+\author{Some One}
+\date{September 21, 2024}
+
+\section{Introduction}
+Welcome to RustaTex, a lightweight alternative to LaTeX built with Rust. 
+
+\section{Features}
+\subsection{Simple Syntax}
+RustaTex offers a simple and intuitive syntax for document creation.
+
+\subsection{ Rendering}
+RustaTex can render documents swiftly.
+
+\section{Conclusion}
+RustaTex.
